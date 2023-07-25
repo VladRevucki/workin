@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Muller', sans-serif;
+}
+
+*,
+*::before,
+::after {
+    box-sizing: inherit;
+    outline: none;
+}
+
+
+@font-face {
+    font-family: 'Muller';
+    src: url('/fonts/MullerMedium.eot');
+    src: local('Muller Medium'), local('MullerMedium'),
+        url('/fonts/MullerMedium.woff2') format('woff2'),
+        url('/fonts/MullerMedium.woff') format('woff'),
+        url('/fonts/MullerMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1920px;
+    max-width: 100%;
+}
+
+#userForm {
+    margin-bottom: 30px;
+}
+
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+form input {
+    margin-right: 20px;
+}
